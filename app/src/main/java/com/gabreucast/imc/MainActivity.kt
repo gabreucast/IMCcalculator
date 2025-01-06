@@ -95,6 +95,7 @@ class MainActivity : AppCompatActivity() {
 
         btnCalculate.setOnClickListener {
             val result = calculateIMC()
+            //navigateToResult(result)
         }
 
 
