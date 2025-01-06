@@ -1,0 +1,12 @@
+<resources>
+    <!--Activity main -->
+    <string name="app_name">IMC</string>
+    <string name="height">Altura</string>
+    <string name="weight">peso</string>
+    <string name="age">edad</string>
+    <string name="calculate">calcular</string>
+
+    <!--Fragment Resultado -->
+    <string name="result">Resultado</string>
+    <string name="recalculate">Re-Calculate</string>
+</resources>
