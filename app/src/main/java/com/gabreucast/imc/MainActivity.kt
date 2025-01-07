@@ -94,21 +94,22 @@ class MainActivity : AppCompatActivity() {
             }
 
         btnCalculate.setOnClickListener {
-            val result = calculateIMC()
-            //navigateToResult(result)
+            //val result = calculateIMC()
+            navigateToResult()
         }
 
 
         } // chave initListeners()
 
 
-    private fun navigateToResult(result: Any) {
-        //TODO Navegar para Resultado
+    private fun navigateToResult() {
+        val intent = Intent(this, ResultadoActivity::class.java)
+        intent.putExtra("IMC_RESULT", calculateIMC())
+        startActivity(intent)
     }
 
-
     private fun calculateIMC(): Double {
-        val imc = currentWeight / (currentHeight.toDouble() /100 * currentHeight.toDouble()/100)
+        val imc = currentWeight / ((currentHeight / 100.0) * (currentHeight / 100.0))
         return imc
     }
 
