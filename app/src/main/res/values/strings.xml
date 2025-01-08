@@ -9,6 +9,24 @@
     <!--Fragment Resultado -->
     <string name="result">Resultado</string>
     <string name="recalculate">Re-Calculate</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_bajo_peso">Bajo peso</string>
+    <string name="description_bajo_peso">Estás por debajo de lo óptimo para tu peso y altura.</string>
+    <string name="title_peso_normal">Normal</string>
+    <string name="description_peso_normal">Estás en lo óptimo para tu peso y altura.</string>
+    <string name="title_sobrepeso">Sobrepeso</string>
+    <string name="description_sobrepeso">Estás por encima de lo óptimo para tu peso y altura.</string>
+    <string name="title_obesidad">Obesidad</string>
+    <string name="description_obesidad">Estás MUY por encima de lo óptimo para tu peso y altura.</string>
+
+    <!-- Mensajes para los pesos -->
+    <string name="description_bajo_peso_men">En un hombre, ese peso podría estar por debajo del peso saludable. Se recomienda consultar a un especialista.</string>
+    <string name="description_bajo_peso_women">En una mujer, ese peso podría estar por debajo del peso saludable. Es recomendable visitar a un profesional.</string>
+    <string name="description_peso_normal_men">En un hombre, este peso es saludable. Mantén tus buenos hábitos para seguir saludable.</string>
+    <string name="description_peso_normal_women">En una mujer, este peso es saludable. Sigue con tus hábitos saludables para mantenerte bien.</string>
+    <string name="description_sobrepeso_men">En un hombre, tu peso está elevado. Se recomienda mejorar la dieta y hacer ejercicio regularmente.</string>
+    <string name="description_sobrepeso_women">En una mujer, tu peso está elevado. Es recomendable ajustar tu dieta y actividad física.</string>
+    <string name="description_obesidad_men">En un hombre, tu peso indica obesidad, lo que aumenta riesgos de salud. Es importante buscar ayuda profesional.</string>
+    <string name="description_obesidad_women">En una mujer, tu peso indica obesidad, lo que aumenta riesgos de salud. Se recomienda consultar con un médico.</string>
+
+
 </resources>

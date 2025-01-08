@@ -1,12 +1,11 @@
 package com.gabreucast.imc
 
+import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.AppCompatButton
 import androidx.appcompat.widget.AppCompatTextView
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 
 class ResultadoActivity : AppCompatActivity() {
 
@@ -26,16 +25,45 @@ class ResultadoActivity : AppCompatActivity() {
         mostrarResultado()
     }
 
+    @SuppressLint("DefaultLocale", "UseCompatLoadingForDrawables")
     private fun mostrarResultado() {
-        val valor = intent.getDoubleExtra("IMC_RESULT",0.0)
-        tvIMC.text = valor.toString()
-//        when {
-//            imc < 18.5 -> {
-//                tvTitle.text = getString("R.string.title_low_weight")
-//                tvDescription.text = getString(R.string.description_low_weight)
-//            }
-//
-//        }
+        initListeners()
+
+        imc = intent.getDoubleExtra("IMC_RESULT",0.0)
+        val formattedImc = String.format("%.2f", imc)
+        val isMale = intent.getBooleanExtra("CARD_RESULT", true)
+        tvIMC.text = formattedImc
+        when {
+            imc < 18.5 -> {
+                tvResult.text = getString(R.string.title_bajo_peso)
+                tvResult.background = getDrawable(R.color.peso_bajo)
+                tvDescription.text = if (isMale) getString(R.string.description_bajo_peso_men) else getString(R.string.description_bajo_peso_women)
+            }
+            imc in 18.5..24.9 -> {
+                tvResult.text = getString(R.string.title_peso_normal)
+                tvResult.background = getDrawable(R.color.peso_normal)
+                tvDescription.text = if (isMale) getString(R.string.description_peso_normal_men) else getString(R.string.description_peso_normal_women)
+            }
+            imc in 25.0..29.9 -> {
+                tvResult.text = getString(R.string.title_sobrepeso)
+                tvResult.background = getDrawable(R.color.peso_sobrepeso)
+                tvDescription.text = if (isMale) getString(R.string.description_sobrepeso_men) else getString(R.string.description_sobrepeso_women)
+            }
+            else -> {
+                tvResult.text = getString(R.string.title_obesidad)
+                tvResult.background = getDrawable(R.color.obesidad)
+                tvDescription.text = if (isMale) getString(R.string.description_obesidad_men) else getString(R.string.description_obesidad_women)
+            }
+        }
+
+    }
+
+    private fun initListeners() {
+        btnRecalculate.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java )
+            startActivity(intent)
+            finish()
+        }
     }
 
     private fun initComponents() {

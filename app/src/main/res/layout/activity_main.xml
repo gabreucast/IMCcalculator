@@ -16,7 +16,7 @@
         android:layout_width="0dp"
         android:layout_height="150dp"
         android:layout_marginHorizontal="5dp"
-        app:cardBackgroundColor="@color/background_component"
+        app:cardBackgroundColor="@color/background_component_selected"
         app:cardCornerRadius="16dp"
         app:layout_constraintEnd_toStartOf="@id/cardFemale"
         app:layout_constraintStart_toStartOf="parent"
