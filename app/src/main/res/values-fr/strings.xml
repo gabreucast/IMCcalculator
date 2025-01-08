@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IMC</string>
+    <string name="height">Taille</string>
+    <string name="weight">Poids</string>
+    <string name="age">Âge</string>
+    <string name="calculate">Calculer</string>
+    <string name="result">Résultat</string>
+    <string name="recalculate">Recalculer</string>
+    <string name="title_bajo_peso">Insuffisance pondérale</string>
+    <string name="description_bajo_peso">Vous êtes en dessous du poids optimal pour votre taille et poids.</string>
+    <string name="title_peso_normal">Normal</string>
+    <string name="description_peso_normal">Vous êtes dans la plage optimale pour votre taille et poids.</string>
+    <string name="title_sobrepeso">Surpoids</string>
+    <string name="description_sobrepeso">Vous êtes au-dessus du poids optimal pour votre taille et poids.</string>
+    <string name="title_obesidad">Obésité</string>
+    <string name="description_obesidad">Vous êtes BIEN au-dessus du poids optimal pour votre taille et poids.</string>
+    <string name="description_bajo_peso_men">Pour un homme, ce poids pourrait être en dessous de la plage de poids saine. Il est recommandé de consulter un spécialiste.</string>
+    <string name="description_bajo_peso_women">Pour une femme, ce poids pourrait être en dessous de la plage de poids saine. Il est conseillé de consulter un professionnel.</string>
+    <string name="description_peso_normal_men">Pour un homme, ce poids est sain. Maintenez vos bonnes habitudes pour rester en bonne santé.</string>
+    <string name="description_peso_normal_women">Pour une femme, ce poids est sain. Continuez avec vos habitudes saines pour rester bien.</string>
+    <string name="description_sobrepeso_men">Pour un homme, votre poids est élevé. Il est recommandé d\'améliorer votre alimentation et de faire de l\'exercice régulièrement.</string>
+    <string name="description_sobrepeso_women">Pour une femme, votre poids est élevé. Il est conseillé d\'ajuster votre alimentation et votre activité physique.</string>
+    <string name="description_obesidad_men">Pour un homme, votre poids indique de l\'obésité, ce qui augmente les risques pour la santé. Il est important de demander de l\'aide professionnelle.</string>
+    <string name="description_obesidad_women">Pour une femme, votre poids indique de l\'obésité, ce qui augmente les risques pour la santé. Il est recommandé de consulter un médecin.</string>
+</resources>

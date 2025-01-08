@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ИМТ</string>
+    <string name="height">Рост</string>
+    <string name="weight">Вес</string>
+    <string name="age">Возраст</string>
+    <string name="calculate">Рассчитать</string>
+    <string name="result">Результат</string>
+    <string name="recalculate">Пересчитать</string>
+    <string name="title_bajo_peso">Недовес</string>
+    <string name="description_bajo_peso">Ваш вес ниже оптимального для вашего роста и веса.</string>
+    <string name="title_peso_normal">Нормально</string>
+    <string name="description_peso_normal">Вы находитесь в оптимальном диапазоне для вашего роста и веса.</string>
+    <string name="title_sobrepeso">Избыточный вес</string>
+    <string name="description_sobrepeso">Ваш вес выше оптимального для вашего роста и веса.</string>
+    <string name="title_obesidad">Ожирение</string>
+    <string name="description_obesidad">Ваш вес значительно превышает оптимальный для вашего роста и веса.</string>
+    <string name="description_bajo_peso_men">Для мужчины этот вес может быть ниже здорового диапазона. Рекомендуется проконсультироваться со специалистом.</string>
+    <string name="description_bajo_peso_women">Для женщины этот вес может быть ниже здорового диапазона. Рекомендуется посетить профессионала.</string>
+    <string name="description_peso_normal_men">Для мужчины этот вес является здоровым. Поддерживайте свои хорошие привычки, чтобы оставаться здоровым.</string>
+    <string name="description_peso_normal_women">Для женщины этот вес является здоровым. Продолжайте следовать своим здоровым привычкам, чтобы оставаться в хорошем состоянии.</string>
+    <string name="description_sobrepeso_men">Для мужчины ваш вес повышен. Рекомендуется улучшить питание и регулярно заниматься физическими упражнениями.</string>
+    <string name="description_sobrepeso_women">Для женщины ваш вес повышен. Рекомендуется скорректировать диету и физическую активность.</string>
+    <string name="description_obesidad_men">Для мужчины ваш вес указывает на ожирение, что увеличивает риски для здоровья. Важно обратиться за профессиональной помощью.</string>
+    <string name="description_obesidad_women">Для женщины ваш вес указывает на ожирение, что увеличивает риски для здоровья. Рекомендуется проконсультироваться с врачом.</string>
+</resources>

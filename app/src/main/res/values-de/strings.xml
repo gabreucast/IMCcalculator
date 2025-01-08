@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BMI</string>
+    <string name="height">Größe</string>
+    <string name="weight">Gewicht</string>
+    <string name="age">Alter</string>
+    <string name="calculate">Berechnen</string>
+    <string name="result">Ergebnis</string>
+    <string name="recalculate">Neu berechnen</string>
+    <string name="title_bajo_peso">Untergewicht</string>
+    <string name="description_bajo_peso">Ihr Gewicht liegt unter dem optimalen Bereich für Ihre Größe und Gewicht.</string>
+    <string name="title_peso_normal">Normal</string>
+    <string name="description_peso_normal">Sie sind im optimalen Bereich für Ihre Größe und Gewicht.</string>
+    <string name="title_sobrepeso">Übergewicht</string>
+    <string name="description_sobrepeso">Ihr Gewicht liegt über dem optimalen Bereich für Ihre Größe und Gewicht.</string>
+    <string name="title_obesidad">Fettleibigkeit</string>
+    <string name="description_obesidad">Sie liegen WEIT über dem optimalen Bereich für Ihre Größe und Gewicht.</string>
+    <string name="description_bajo_peso_men">Bei einem Mann könnte dieses Gewicht unter dem gesunden Gewichtsbereich liegen. Es wird empfohlen, einen Spezialisten zu konsultieren.</string>
+    <string name="description_bajo_peso_women">Bei einer Frau könnte dieses Gewicht unter dem gesunden Gewichtsbereich liegen. Es wird empfohlen, einen Fachmann aufzusuchen.</string>
+    <string name="description_peso_normal_men">Bei einem Mann ist dieses Gewicht gesund. Behalten Sie Ihre guten Gewohnheiten bei, um gesund zu bleiben.</string>
+    <string name="description_peso_normal_women">Bei einer Frau ist dieses Gewicht gesund. Behalten Sie Ihre gesunden Gewohnheiten bei, um gut zu bleiben.</string>
+    <string name="description_sobrepeso_men">Bei einem Mann ist Ihr Gewicht erhöht. Es wird empfohlen, die Ernährung zu verbessern und regelmäßig Sport zu treiben.</string>
+    <string name="description_sobrepeso_women">Bei einer Frau ist Ihr Gewicht erhöht. Es wird empfohlen, Ernährung und körperliche Aktivität anzupassen.</string>
+    <string name="description_obesidad_men">Bei einem Mann zeigt Ihr Gewicht Fettleibigkeit, was Gesundheitsrisiken erhöht. Es ist wichtig, professionelle Hilfe zu suchen.</string>
+    <string name="description_obesidad_women">Bei einer Frau zeigt Ihr Gewicht Fettleibigkeit, was Gesundheitsrisiken erhöht. Es wird empfohlen, einen Arzt zu konsultieren.</string>
+</resources>

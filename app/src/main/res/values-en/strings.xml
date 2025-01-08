@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BMI</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="age">Age</string>
+    <string name="calculate">Calculate</string>
+    <string name="result">Result</string>
+    <string name="recalculate">Re-Calculate</string>
+    <string name="title_bajo_peso">Underweight</string>
+    <string name="description_bajo_peso">You are below the optimal weight for your height and weight.</string>
+    <string name="title_peso_normal">Normal</string>
+    <string name="description_peso_normal">You are in the optimal range for your height and weight.</string>
+    <string name="title_sobrepeso">Overweight</string>
+    <string name="description_sobrepeso">You are above the optimal weight for your height and weight.</string>
+    <string name="title_obesidad">Obesity</string>
+    <string name="description_obesidad">You are WAY above the optimal weight for your height and weight.</string>
+    <string name="description_bajo_peso_men">For a man, this weight could be below the healthy weight range. It is recommended to consult a specialist.</string>
+    <string name="description_bajo_peso_women">For a woman, this weight could be below the healthy weight range. It is advisable to visit a professional.</string>
+    <string name="description_peso_normal_men">For a man, this weight is healthy. Keep your good habits to stay healthy.</string>
+    <string name="description_peso_normal_women">For a woman, this weight is healthy. Continue with your healthy habits to maintain well-being.</string>
+    <string name="description_sobrepeso_men">For a man, your weight is elevated. It is recommended to improve diet and exercise regularly.</string>
+    <string name="description_sobrepeso_women">For a woman, your weight is elevated. It is advisable to adjust diet and physical activity.</string>
+    <string name="description_obesidad_men">For a man, your weight indicates obesity, which increases health risks. It is important to seek professional help.</string>
+    <string name="description_obesidad_women">For a woman, your weight indicates obesity, which increases health risks. It is recommended to consult a doctor.</string>
+</resources>
